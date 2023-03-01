@@ -1,0 +1,17 @@
+.column{
+    width: 290px;
+    background-color:#EAEAEA;
+    margin: 1%;
+    height: 100vh;
+}
+
+.column h2{
+    color:blue;
+    text-align: left;
+    margin:5%;
+    font-weight: bolder;
+}
+
+.column span{
+    font-weight: bold;
+}
