@@ -1,6 +1,7 @@
 import { ChangeEventHandler, ReactEventHandler, useState } from "react"
 import styles from "./PostForm.module.css"
 import { AiFillPlusCircle } from "react-icons/ai";
+import PostCard from "./PostCard";
 
 type postCard = {
     id:string;
@@ -15,7 +16,8 @@ type props = {
 
 function PostForm({ handleOnClick }: props) {
 
-    const [card, setCard] = useState({id:'', title:'', content:'', status:'toDo'})
+    let initialCard:postCard = {id:'', title:'', content:'', status:'toDo'}
+    const [card, setCard] = useState(initialCard)
 
     return (
         <div className={styles.card}>
