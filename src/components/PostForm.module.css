@@ -1,0 +1,27 @@
+.card {
+    background: #F8F8F8;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.28);
+    border-radius: 25px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+.card input,
+.card textarea{
+    margin: 3px;
+    border-radius: 10px;
+    width: 240px;
+}
+
+.card button{
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.between{
+    display: flex;
+    justify-content: space-between;
+}
